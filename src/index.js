@@ -30,7 +30,7 @@ app.use(routes)
 
 connectDB().then(() => {
     app.listen(443, () => {
-        console.log('Servidor rodando na porta 3000');
+        console.log('Servidor rodando na porta 443');
     });
 });
 
